@@ -17,6 +17,7 @@ function convertFahrToCelsius(F){
         output = Number(c.toFixed(4))    
     }
     console.log(output);
+    return(output);
   }
   //Test Cases
   convertFahrToCelsius(true);
@@ -70,6 +71,7 @@ function checkYuGiOh(n) {
         }
 
     console.log(output);
+    return(output);
 
 }
 
